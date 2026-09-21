@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-09-14 12:08:48.601748",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "date",
+  "cause",
+  "data_zhgc"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Type"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "cause",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Cause"
+  },
+  {
+   "fieldname": "data_zhgc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Place"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-09-15 16:11:14.867599",
+ "modified_by": "Administrator",
+ "module": "Personnel Management",
+ "name": "Personnel punishment",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

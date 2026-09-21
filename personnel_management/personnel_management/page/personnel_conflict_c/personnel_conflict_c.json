@@ -1,0 +1,26 @@
+{
+ "content": null,
+ "creation": "2026-09-16 13:53:16.426327",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2026-09-17 11:21:24.116379",
+ "modified_by": "Administrator",
+ "module": "Personnel Management",
+ "name": "personnel_conflict_c",
+ "owner": "Administrator",
+ "page_name": "personnel_conflict_c",
+ "roles": [
+  {
+   "role": "Navy Personnel Admin"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Personnel Conflict Center"
+}

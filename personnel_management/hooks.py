@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/personnel_management/css/personnel_management.css"
-# app_include_js = "/assets/personnel_management/js/personnel_management.js"
+app_include_js = "/assets/personnel_management/js/personnel_management.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/personnel_management/css/personnel_management.css"
@@ -247,3 +247,9 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+doc_events = {
+    "Navy Personnel": {
+        "on_update": "personnel_management.services.personnel_sync.sync_committee_records"
+    }
+}

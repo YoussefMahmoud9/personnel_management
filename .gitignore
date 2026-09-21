@@ -1,7 +1,68 @@
+# OS / editor
 .DS_Store
-*.pyc
-*.egg-info
 *.swp
 tags
-node_modules
-__pycache__
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.log
+*.pid
+
+# Node / frontend
+node_modules/
+coverage/
+
+# Environment, secrets, certificates, keys
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+site_config.json
+common_site_config.json
+
+# Database dumps / backups / archives
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Spreadsheet / raw data files
+*.xlsx
+*.xls
+*.csv
+!personnel_management/translations/ar.csv
+
+# Uploaded or private media accidentally copied into app
+public/files/
+private/files/
+Personnel/
+Personnel/Family/
+
+# Frappe site/runtime data accidentally copied into app
+sites/
+site1.local/
+logs/
+indexes/
+
+# Local temporary files
+tmp/
+temp/
+.cache/

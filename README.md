@@ -1,6 +1,23 @@
 ### Personnel Management
 
-Personnel management System 
+Personnel management System.
+
+### Complete Documentation
+
+The full professional documentation set is in [`docs/`](docs/README.md).
+
+Recommended starting points:
+
+- [Complete System Guide](docs/COMPLETE_SYSTEM_GUIDE.md)
+- [Beginner To Expert Guide](docs/BEGINNER_TO_EXPERT_GUIDE.md)
+- [User Guide](docs/USER_GUIDE.md)
+- [Administrator Guide](docs/ADMIN_GUIDE.md)
+- [Technical Documentation](docs/TECHNICAL_DOCUMENTATION.md)
+- [DocType And Field Reference](docs/DOCTYPE_AND_FIELD_REFERENCE.md)
+- [Import Export Detailed Guide](docs/IMPORT_EXPORT_DETAILED_GUIDE.md)
+- [Conflict And Deduplication Reference](docs/CONFLICT_AND_DEDUPLICATION_REFERENCE.md)
+- [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Dashboards, Reports, And Statistics](docs/DASHBOARDS_REPORTS_AND_STATISTICS.md)
 
 ### Installation
 
@@ -20,21 +37,6 @@ This app uses `pre-commit` for code formatting and linting. Please [install pre-
 cd apps/personnel_management
 pre-commit install
 ```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
-
 
 ### License
 

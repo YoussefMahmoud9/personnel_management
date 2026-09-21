@@ -1,0 +1,352 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:military_number",
+ "creation": "2026-09-14 11:27:34.885045",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "military_number",
+  "full_name",
+  "birth_date",
+  "age",
+  "address",
+  "image",
+  "family_photo",
+  "reports_section",
+  "report_1",
+  "report_2",
+  "report_3",
+  "service_information_section",
+  "weapon",
+  "unit",
+  "rank",
+  "category",
+  "job",
+  "service_year_number",
+  "high_salary_date",
+  "promotion_promise_date",
+  "volunteer_date",
+  "social_status",
+  "family_information_section",
+  "number_of_girls",
+  "names_of_girls",
+  "number_of_boys",
+  "names_of_boys",
+  "personnel_history_section",
+  "promotions",
+  "measurements",
+  "medical_committees",
+  "unit_history",
+  "travel_history",
+  "punishments",
+  "detentions",
+  "imprisonments",
+  "military_courts",
+  "committee_records",
+  "record_sources",
+  "family_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "military_number",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Military Number",
+   "length": 13,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "birth_date",
+   "fieldtype": "Date",
+   "label": "Birth Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "weapon",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Weapon",
+   "options": "Navy Weapon",
+   "reqd": 1
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Unit",
+   "options": "Navy Unit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rank",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Rank",
+   "options": "Navy Rank",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "job",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Job",
+   "options": "Navy Job",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service_year_number",
+   "fieldtype": "Float",
+   "label": "Service Year Number"
+  },
+  {
+   "fieldname": "high_salary_date",
+   "fieldtype": "Date",
+   "label": "High Salary Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "social_status",
+   "fieldtype": "Select",
+   "label": "Social Status",
+   "options": "\u0645\u062a\u0632\u0648\u062c\n\u0627\u0631\u0645\u0644\n\u0645\u0637\u0644\u0642\n\u0627\u0639\u0632\u0628",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Float",
+   "label": "Age"
+  },
+  {
+   "fieldname": "promotions",
+   "fieldtype": "Table",
+   "label": "Promotions",
+   "options": "Personnel Promotion"
+  },
+  {
+   "fieldname": "measurements",
+   "fieldtype": "Table",
+   "label": "Measurements",
+   "options": "Personnel Measurement"
+  },
+  {
+   "fieldname": "medical_committees",
+   "fieldtype": "Table",
+   "label": "Medical Committees",
+   "options": "Personnel Medical Committee"
+  },
+  {
+   "fieldname": "unit_history",
+   "fieldtype": "Table",
+   "label": "Unit History",
+   "options": "Personnel Unit History"
+  },
+  {
+   "fieldname": "travel_history",
+   "fieldtype": "Table",
+   "label": "Travel History ",
+   "options": "Personnel Travel"
+  },
+  {
+   "fieldname": "punishments",
+   "fieldtype": "Table",
+   "label": "Punishments",
+   "options": "Personnel punishment"
+  },
+  {
+   "fieldname": "detentions",
+   "fieldtype": "Table",
+   "label": "Detentions",
+   "options": "Personnel Detention"
+  },
+  {
+   "fieldname": "imprisonments",
+   "fieldtype": "Table",
+   "label": "Imprisonments",
+   "options": "Personnel Imprisonment"
+  },
+  {
+   "fieldname": "military_courts",
+   "fieldtype": "Table",
+   "label": "Military Courts",
+   "options": "Personnel Military Court"
+  },
+  {
+   "fieldname": "volunteer_date",
+   "fieldtype": "Date",
+   "label": "Volunteer Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service_information_section",
+   "fieldtype": "Section Break",
+   "label": "Service Information"
+  },
+  {
+   "fieldname": "personnel_history_section",
+   "fieldtype": "Section Break",
+   "label": "Personnel History"
+  },
+  {
+   "fieldname": "committee_records",
+   "fieldtype": "Table",
+   "label": "Committee Records",
+   "options": "Personnel Committee Record"
+  },
+  {
+   "fieldname": "reports_section",
+   "fieldtype": "Section Break",
+   "label": "Reports"
+  },
+  {
+   "fieldname": "report_1",
+   "fieldtype": "Small Text",
+   "label": "Report 1"
+  },
+  {
+   "fieldname": "report_2",
+   "fieldtype": "Small Text",
+   "label": "Report 2"
+  },
+  {
+   "fieldname": "report_3",
+   "fieldtype": "Small Text",
+   "label": "Report 3"
+  },
+  {
+   "fieldname": "promotion_promise_date",
+   "fieldtype": "Date",
+   "label": "Promotion Promise Date"
+  },
+  {
+   "fieldname": "family_information_section",
+   "fieldtype": "Section Break",
+   "label": "Family Information"
+  },
+  {
+   "fieldname": "number_of_girls",
+   "fieldtype": "Int",
+   "label": "Number of Girls"
+  },
+  {
+   "fieldname": "names_of_girls",
+   "fieldtype": "Small Text",
+   "label": "Names of Girls"
+  },
+  {
+   "fieldname": "number_of_boys",
+   "fieldtype": "Int",
+   "label": "Number of Boys"
+  },
+  {
+   "fieldname": "names_of_boys",
+   "fieldtype": "Small Text",
+   "label": "Names of Boys"
+  },
+  {
+   "fieldname": "record_sources",
+   "fieldtype": "Table",
+   "label": "Record Sources",
+   "options": "Personnel Record Source"
+  },
+  {
+   "fieldname": "family_photo",
+   "fieldtype": "Attach Image",
+   "label": "Family Photo"
+  },
+  {
+   "fieldname": "family_image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Family Image "
+  }
+ ],
+ "grid_page_length": 50,
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-21 10:22:41.502395",
+ "modified_by": "Administrator",
+ "module": "Personnel Management",
+ "name": "Navy Personnel",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Navy Personnel User"
+  },
+  {
+   "create": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Navy Personnel Admin",
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Navy Personnel Editor",
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "military_number",
+ "sort_order": "ASC",
+ "states": []
+}

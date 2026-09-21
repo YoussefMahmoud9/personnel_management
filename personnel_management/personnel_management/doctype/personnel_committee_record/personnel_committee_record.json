@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-09-14 12:38:39.157229",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personnel",
+  "committee",
+  "section_break_mxpq",
+  "military_number",
+  "committee_name_value",
+  "rank",
+  "category",
+  "age",
+  "service_year_number",
+  "weapon",
+  "job",
+  "unit",
+  "section_break_soue",
+  "report_1",
+  "report_2",
+  "report_3"
+ ],
+ "fields": [
+  {
+   "fieldname": "personnel",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Personnel",
+   "options": "Navy Personnel",
+   "reqd": 1
+  },
+  {
+   "fieldname": "committee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Committee",
+   "options": "Personnel Committee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_mxpq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rank",
+   "fieldtype": "Data",
+   "label": "Rank"
+  },
+  {
+   "fieldname": "committee_name_value",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Float",
+   "label": "Age"
+  },
+  {
+   "fieldname": "service_year_number",
+   "fieldtype": "Float",
+   "label": "Service Year number"
+  },
+  {
+   "fieldname": "weapon",
+   "fieldtype": "Data",
+   "label": "Weapon"
+  },
+  {
+   "fieldname": "job",
+   "fieldtype": "Data",
+   "label": "Job"
+  },
+  {
+   "fieldname": "military_number",
+   "fieldtype": "Data",
+   "label": "Military Number",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "section_break_soue",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "report_1",
+   "fieldtype": "Small Text",
+   "label": "Report 1"
+  },
+  {
+   "fieldname": "report_2",
+   "fieldtype": "Small Text",
+   "label": "Report 2"
+  },
+  {
+   "fieldname": "report_3",
+   "fieldtype": "Small Text",
+   "label": "Report 3"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-09-14 14:01:31.920678",
+ "modified_by": "Administrator",
+ "module": "Personnel Management",
+ "name": "Personnel Committee Record",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

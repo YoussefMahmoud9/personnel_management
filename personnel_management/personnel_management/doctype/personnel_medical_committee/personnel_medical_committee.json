@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-09-14 11:53:07.111890",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "committee_type",
+  "diagnosis",
+  "decision",
+  "committee_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "committee_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Committee Type"
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Diagnosis"
+  },
+  {
+   "fieldname": "decision",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Decision"
+  },
+  {
+   "fieldname": "committee_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Committee Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-09-15 16:10:41.773683",
+ "modified_by": "Administrator",
+ "module": "Personnel Management",
+ "name": "Personnel Medical Committee",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

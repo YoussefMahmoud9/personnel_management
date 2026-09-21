@@ -1,0 +1,65 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"xgcRe55UFt\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Personnel Management</span>\",\"col\":12}},{\"id\":\"nrYd4xgkJY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Navy Personnel\",\"col\":6}},{\"id\":\"V_b-rAZqRA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Personnel Committee\",\"col\":6}},{\"id\":\"OU9VFBSlt1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ust9ZXGmzQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_tTshLTrTD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Conflict</b></span>\",\"col\":12}},{\"id\":\"E5ZLyIhjOV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Personnel Data Conflict \",\"col\":6}},{\"id\":\"lQdf0NDOGY\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZUDo5DwMeO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"RPyj7rzxW9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Personnel Export\",\"col\":6}},{\"id\":\"My2_8Dq5tp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Conflict Center\",\"col\":6}},{\"id\":\"OhFY4fGH5a\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2026-09-17 12:07:39.105821",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "indicator_color": "cyan",
+ "is_hidden": 0,
+ "label": "Personnel Management",
+ "links": [],
+ "modified": "2026-09-21 15:35:32.189028",
+ "modified_by": "Administrator",
+ "module": "Personnel Management",
+ "name": "Personnel Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Home",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 22.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Navy Personnel",
+   "link_to": "Navy Personnel",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Conflict Center",
+   "type": "URL",
+   "url": "/app/personnel_conflict_c"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Personnel Committee",
+   "link_to": "Personnel Committee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Personnel Data Conflict ",
+   "link_to": "Personnel Data Conflict",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Personnel Export",
+   "type": "URL",
+   "url": "/app/personnel_export-1"
+  }
+ ],
+ "title": "Personnel Management"
+}

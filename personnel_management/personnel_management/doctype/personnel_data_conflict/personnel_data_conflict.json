@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CONF-.###",
+ "creation": "2026-09-15 10:57:27.486869",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personnel",
+  "military_number",
+  "conflict_type",
+  "status",
+  "field_or_record",
+  "description",
+  "selected_option",
+  "resolution_notes",
+  "resolved_by",
+  "resolved_on",
+  "conflict_options"
+ ],
+ "fields": [
+  {
+   "fieldname": "personnel",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Personnel",
+   "options": "Navy Personnel",
+   "reqd": 1
+  },
+  {
+   "fieldname": "military_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Military Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "conflict_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Conflict Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Unresolved\nResolved",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "selected_option",
+   "fieldtype": "Small Text",
+   "label": "Selected Option"
+  },
+  {
+   "fieldname": "resolution_notes",
+   "fieldtype": "Small Text",
+   "label": "Resolution Notes"
+  },
+  {
+   "fieldname": "resolved_by",
+   "fieldtype": "Link",
+   "label": "Resolved By ",
+   "options": "User"
+  },
+  {
+   "fieldname": "resolved_on",
+   "fieldtype": "Datetime",
+   "label": "Resolved On"
+  },
+  {
+   "fieldname": "field_or_record",
+   "fieldtype": "Data",
+   "label": "Filed / Record"
+  },
+  {
+   "fieldname": "conflict_options",
+   "fieldtype": "Table",
+   "label": "Conflict Options",
+   "options": "Personnel Conflict Option"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-19 16:24:02.222088",
+ "modified_by": "Administrator",
+ "module": "Personnel Management",
+ "name": "Personnel Data Conflict",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
